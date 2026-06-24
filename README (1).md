@@ -1,4 +1,4 @@
-# UNet Image Segmentation — ISBI 2012
+# UNet Image Segmentation - ISBI 2012
 
 Implementation of the original **U-Net** architecture (Ronneberger et al., 2015) for biomedical image segmentation on the **ISBI 2012 EM Segmentation Challenge** dataset.
 
