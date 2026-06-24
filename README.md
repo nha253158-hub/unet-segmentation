@@ -56,7 +56,9 @@ Grad clip  : max_norm=1.0
 ```
 
 ---
+## Visual Results
 
+![Segmentation Results](results.png)
 ## Kết quả / Results
 
 | Metric | Score |
