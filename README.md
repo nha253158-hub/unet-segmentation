@@ -26,11 +26,6 @@ Tái hiện trung thực kiến trúc U-Net theo bài báo gốc / Faithful re-i
 - **Decoder**: 4 khối tăng mẫu (ConvTranspose2d + crop-and-concat skip connections)
 - **Output**: Conv 1×1 → bản đồ phân đoạn 2 lớp
 
-Chi tiết khớp bài báo / Key details matching the paper:
-- Không dùng padding trong convolution (valid convolutions)
-- Crop-and-concat skip connections để xử lý lệch kích thước
-- Reflect padding ảnh đầu vào (+30px mỗi chiều)
-
 ---
 
 ## Hàm Loss / Loss Function
@@ -45,17 +40,7 @@ Trong đó / Where: `d1`, `d2` là khoảng cách tới hai biên tế bào gầ
 
 ---
 
-## Huấn luyện / Training
 
-```
-Optimizer  : Adam (lr=1e-3)
-Epochs     : 100
-Batch size : 8
-Khởi tạo   : He initialization (Kaiming normal)
-Grad clip  : max_norm=1.0
-```
-
----
 ## Visual Results
 
 ![Segmentation Results](results.png)
