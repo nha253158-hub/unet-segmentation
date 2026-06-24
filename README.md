@@ -1,4 +1,4 @@
-# UNet Image Segmentation — ISBI 2012
+# UNet Image Segmentation - ISBI 2012
 
 > Triển khai kiến trúc **U-Net** gốc (Ronneberger et al., 2015) cho bài toán phân đoạn ảnh y sinh trên tập dữ liệu **ISBI 2012 EM Segmentation Challenge**.
 >
