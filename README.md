@@ -43,7 +43,7 @@ Trong đó / Where: `d1`, `d2` là khoảng cách tới hai biên tế bào gầ
 
 ## Visual Results
 
-![Segmentation Results](results.png)
+![Segmentation Results](results.jpg)
 ## Kết quả / Results
 
 | Metric | Score |
